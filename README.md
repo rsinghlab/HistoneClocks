@@ -14,7 +14,7 @@ All data used was publicly available from the ENCODE project. This can be progra
 
 To cite our study, please use the following:
 
-de Lima Camillo, L.P., Lapierre, L.R. & Singh, R. A pan-tissue DNA-methylation epigenetic clock based on deep learning. npj Aging 8, 4 (2022). [https://doi.org/10.1038/s41514-022-00085-y](https://doi.org/10.1038/s41514-022-00085-y)
+de Lima Camillo, L.P., Lapierre, L.R. & Singh, R. Histone mark age of human tissues and cells. bioRxiv X, X (2023). [URLXXXXX](URLXXXXX)
 
 BibTex citation:
 ```
