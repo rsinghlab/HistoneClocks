@@ -1,4 +1,3 @@
-[![Preprint](https://img.shields.io/badge/Preprint-Link-blue)](URL XXXXXXX)
 [![Beta](https://img.shields.io/badge/status-beta-yellow)](https://github.com/rsinghlab/HistoneClocks)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![GitHub stars](https://img.shields.io/github/stars/rsinghlab/HistoneClocks)](https://github.com/rsinghlab/HistoneClocks/stargazers)
