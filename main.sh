@@ -30,9 +30,9 @@ conda install -c bioconda pybigwig -y
 
 #download data
 python scripts/download_and_process_methylation.py
-python scripts/download_and_process_geo.py
 python scripts/download_and_process_encode.py
 python scripts/download_and_process_encode_imputation.py
+python scripts/download_and_process_encode_primary_cells_untreated.py
 
 #run scripts
 python scripts/nested_cv.py

@@ -7,7 +7,6 @@ scanpy
 tqdm
 dynamo-release
 KDEpy
-glmnet
 cdlib
 igraph
 leidenalg
