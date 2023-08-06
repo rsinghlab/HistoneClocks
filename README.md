@@ -32,8 +32,21 @@ This repository hosts the code and resources for predicting histone mark age in 
 
 Follow this step-by-step guide to use the histone mark age predictors. A more detailed version is available in the 'tutorial' folder named 'tutorial.ipynb'.
 
-[Detailed steps are already well-documented in the original text.]
+1. **Load required packages:**
+   Import the necessary packages for data processing and prediction.
 
+2. **Download an Example File from the ENCODE Project:**
+   Execute the command to download a training sample (bigWig file) used in the models. Alternatively, if you would like to use your own ChIP-Seq data, please refer to the [ENCODE website](https://www.encodeproject.org) for guidelines to handle your biosample appropriately and to the [ENCODE ChIP-Seq pipeline GitHub](https://github.com/ENCODE-DCC/chip-seq-pipeline2) to obtain the bigWig file from the sequencing data.
+
+3. **Process the bigWig File:**
+   Use the function \`process_bigWig(bigWig_file_path, annotation_file_path)\` to extract genomic annotations and transform signal values.
+
+4. **Predict the Histone Mark Age:**
+   Utilize the function \`predict_histone_mark_age(processed_sample, histone)\` to predict age based on the processed sample for a given histone type.
+
+5. **Print the Result:**
+   The code will print the predicted histone mark age.
+   
 Example code snippet:
 ```python
 sample = process_bigWig('ENCFF386QWG.bigWig')
