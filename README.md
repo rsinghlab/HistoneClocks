@@ -1,13 +1,13 @@
+[![Preprint](https://img.shields.io/badge/Preprint-Link-blue)](URL XXXXXXX)
 [![Beta](https://img.shields.io/badge/status-beta-yellow)](https://github.com/rsinghlab/HistoneClocks)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/network/members)
-![Downloads](https://img.shields.io/github/downloads/username/repository/total)
+[![GitHub stars](https://img.shields.io/github/stars/rsinghlab/HistoneClocks)](https://github.com/rsinghlab/HistoneClocks/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/rsinghlab/HistoneClocks)](https://github.com/rsinghlab/HistoneClocks/network/members)
+![Downloads](https://img.shields.io/github/downloads/rsinghlab/HistoneClocks/total)
 [![Twitter Follow](https://img.shields.io/twitter/follow/ollimacsacul?style=social)](https://twitter.com/ollimacsacul)
 
 # 🧬🕡 Histone mark age of human tissues and cells 🕡🧬
 
-[![Preprint](https://img.shields.io/badge/Preprint-Link-blue)](URL XXXXXXX)
 For the link to our preprint, please click [here](URL XXXXXXX).
 
 
@@ -37,12 +37,12 @@ FThe tutorial below provides a step-by-step guide to using the histone mark age 
    The code will print the predicted histone mark age.
 
 Example code snippet:
-\```python
+```python
 sample = process_bigWig('ENCFF386QWG.bigWig')
 histone_mark = 'H3K4me3'
 y_hat = predict_histone_mark_age(sample, histone=histone_mark)[0]
 print(f'The predicted {histone_mark} age is {round(y_hat,3)} years.')
-\```
+```
 
 ## 📦 Data availability
 
