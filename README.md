@@ -1,30 +1,47 @@
+![Build Status](https://travis-ci.com/username/repository.svg?branch=main)
+![Coverage](https://coveralls.io/repos/github/username/repository/badge.svg?branch=main)
+![License](https://img.shields.io/github/license/username/repository)
+![Version](https://img.shields.io/github/v/release/username/repository)
+![Downloads](https://img.shields.io/github/downloads/username/repository/total)
+
 # 🧬🕡 Histone mark age of human tissues and cells 🕡🧬
 
 [![Preprint](https://img.shields.io/badge/Preprint-Link-blue)](URL XXXXXXX)
+For the link to our preprint, please click [here](URL XXXXXXX).
+
 
 ## 🚀 Usage
 
-To replicate the results, please spin up an AWS SageMaker instance (in our case, we used ml.t3.2xlarge), clone this repository, and run main.sh.
+To replicate the results, please spin up an AWS SageMaker instance (in our case, we used ml.t3.2xlarge), clone this repository, and run main.sh. If you already have the processed data (see below), then feel free to comment out the scripts used for downloads.
 
 ---
 
 ### 💡 Tutorial on Using the Histone Mark Age Predictors
 
-Follow the guide below or refer to 'tutorial.ipynb' inside the 'tutorial' folder.
+FThe tutorial below provides a step-by-step guide to using the histone mark age predictors. A more detailed version is also available in the Jupyter notebook inside the 'tutorial' folder named 'tutorial.ipynb'.
 
-1. **Load required packages:** ...
-2. **Download an Example File:** ...
-3. **Process the bigWig File:** ...
-4. **Predict the Histone Mark Age:** ...
-5. **Print the Result:** ...
+1. **Load required packages:**
+   Import the necessary packages for data processing and prediction.
+
+2. **Download an Example File from the ENCODE Project:**
+   Execute the command to download a training sample (bigWig file) used in the models.
+
+3. **Process the bigWig File:**
+   Use the function \`process_bigWig(bigWig_file_path, annotation_file_path)\` to extract genomic annotations and transform signal values.
+
+4. **Predict the Histone Mark Age:**
+   Utilize the function \`predict_histone_mark_age(processed_sample, histone)\` to predict age based on the processed sample for a given histone type.
+
+5. **Print the Result:**
+   The code will print the predicted histone mark age.
 
 Example code snippet:
-```python
+\```python
 sample = process_bigWig('ENCFF386QWG.bigWig')
 histone_mark = 'H3K4me3'
 y_hat = predict_histone_mark_age(sample, histone=histone_mark)[0]
 print(f'The predicted {histone_mark} age is {round(y_hat,3)} years.')
-```
+\```
 
 ## 📦 Data availability
 
