@@ -1,8 +1,9 @@
-![Build Status](https://travis-ci.com/username/repository.svg?branch=main)
-![Coverage](https://coveralls.io/repos/github/username/repository/badge.svg?branch=main)
-![License](https://img.shields.io/github/license/username/repository)
-![Version](https://img.shields.io/github/v/release/username/repository)
+[![Beta](https://img.shields.io/badge/status-beta-yellow)](https://github.com/rsinghlab/HistoneClocks)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/USERNAME/REPO_NAME)](https://github.com/USERNAME/REPO_NAME/network/members)
 ![Downloads](https://img.shields.io/github/downloads/username/repository/total)
+[![Twitter Follow](https://img.shields.io/twitter/follow/ollimacsacul?style=social)](https://twitter.com/ollimacsacul)
 
 # 🧬🕡 Histone mark age of human tissues and cells 🕡🧬
 
