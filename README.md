@@ -23,7 +23,7 @@ This repository hosts the code and resources for predicting histone mark age in 
 
 ## 🚀 Usage
 
-1. **Set up Environment**: Spin up an AWS SageMaker instance (e.g., `ml.t3.2xlarge`).
+1. **Set up Environment**: Spin up an AWS SageMaker instance (e.g., `ml.t3.2xlarge`) or any other computer.
 2. **Clone Repository**: Clone this repository to your environment.
 3. **Run `main.sh`**: Run the `main.sh` script to replicate the results.
 4. **Download Processed ENCODE Data** (optional): If you've already downloaded the processed ENCODE data, comment out the download scripts.
