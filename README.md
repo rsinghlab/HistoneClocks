@@ -10,7 +10,7 @@ This repository hosts the code and resources for predicting histone mark age in 
 
 ## 🏛️ Project Structure
 
-- **`analysis/`**: Analysis notebook files for the manuscript's four main sections.
+- **`analysis/`**: Analysis notebook files for the manuscript's four main sections [for peer-review].
 - **`metadata/`**: Metadata required to run the scripts.
 - **`results/models/`**: Feature selection, dimensionality reduction, and ARD regressor for each histone mark age predictor and the pan histone age predictor.
 - **`scripts/`**: Scripts to reproduce the paper's results.
@@ -25,7 +25,7 @@ This repository hosts the code and resources for predicting histone mark age in 
 
 1. **Set up Environment**: Spin up an AWS SageMaker instance (e.g., `ml.t3.2xlarge`) or any other computer.
 2. **Clone Repository**: Clone this repository to your environment.
-3. **Download Processed ENCODE Data** (optional): Access our [Google Drive](https://drive.google.com/drive/u/2/folders/1mhpAH_bXOyutNfWi0VZdQi0DvQOa7edN). Copy the data folder and all files within to the root of your directory. If you've already downloaded the processed ENCODE data, comment out the download scripts.
+3. **Download Processed ENCODE Data** (optional): Access our [Google Drive](https://drive.google.com/drive/u/2/folders/1mhpAH_bXOyutNfWi0VZdQi0DvQOa7edN). Copy the `data` folder and all files within to the root of your directory. If you've already downloaded the processed ENCODE data, comment out the download scripts.
 4. **Run `main.sh`**: Run the `main.sh` script to replicate the results.
 
 ## 💡 Tutorial on Using the Histone Mark Age Predictors
