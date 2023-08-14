@@ -25,8 +25,8 @@ This repository hosts the code and resources for predicting histone mark age in 
 
 1. **Set up Environment**: Spin up an AWS SageMaker instance (e.g., `ml.t3.2xlarge`) or any other computer.
 2. **Clone Repository**: Clone this repository to your environment.
-3. **Run `main.sh`**: Run the `main.sh` script to replicate the results.
-4. **Download Processed ENCODE Data** (optional): If you've already downloaded the processed ENCODE data, comment out the download scripts.
+3. **Download Processed ENCODE Data** (optional): Access our [Google Drive](https://drive.google.com/drive/u/2/folders/1mhpAH_bXOyutNfWi0VZdQi0DvQOa7edN). Copy the data folder and all files within to the root of your directory. If you've already downloaded the processed ENCODE data, comment out the download scripts.
+4. **Run `main.sh`**: Run the `main.sh` script to replicate the results.
 
 ## 💡 Tutorial on Using the Histone Mark Age Predictors
 
@@ -58,18 +58,18 @@ print(f'The predicted {histone_mark} age is {round(y_hat,3)} years.')
 
 ## 📦 Data availability
 
-All data used was publicly available from the ENCODE project. This can be programmatically accessed and downloaded through the scripts in this GitHub. Nevertheless, to download the already-processed data with the results, please access our Zenodo repository [here](URLXXXXXXX). This should make it easier to train any future models. 
+All data used was publicly available from the ENCODE project. This can be programmatically accessed and downloaded through the scripts in this GitHub. Nevertheless, to download the already-processed data with the results, please access our [Google Drive](https://drive.google.com/drive/u/2/folders/1mhpAH_bXOyutNfWi0VZdQi0DvQOa7edN). This should make it easier to train any future models. 
 
 ## 📝 Citation
 
 To cite our study, please use the following:
 
-de Lima Camillo, L.P., Lapierre, L.R. & Singh, R. Histone mark age of human tissues and cells. bioRxiv X, X (2023). [URLXXXXX](URLXXXXX)
+de Lima Camillo, L.P., Horvath, S. & Singh, R. Histone mark age of human tissues and cells. bioRxiv X, X (2023). [URLXXXXX](URLXXXXX)
 
 BibTex citation:
 ```
 @article {de_Lima_Camillo_HistoneClocks,
-	author = {de Lima Camillo, Lucas Paulo and Lapierre, Louis R and Singh, Ritambhara},
+	author = {de Lima Camillo, Lucas Paulo and Horvath, Steve and Singh, Ritambhara},
 	title = {Histone mark age of human tissues and cells},
 	year = {2023},
 	doi = {XXXXX},
