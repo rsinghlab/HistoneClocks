@@ -64,7 +64,7 @@ All data used was publicly available from the ENCODE project. This can be progra
 
 To cite our study, please use the following:
 
-de Lima Camillo, L.P., Horvath, S. & Singh, R. Histone mark age of human tissues and cells. bioRxiv X, X (2023). [10.1101/2023.08.21.554165](https://www.biorxiv.org/content/10.1101/2023.08.21.554165v1)
+de Lima Camillo, L.P., Asif, M. H., Horvath, S., Larschan, E. & Singh, R. Histone mark age of human tissues and cells. bioRxiv X, X (2023). [10.1101/2023.08.21.554165](https://www.biorxiv.org/content/10.1101/2023.08.21.554165v1)
 
 BibTex citation:
 ```
