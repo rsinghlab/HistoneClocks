@@ -64,7 +64,7 @@ All data used was publicly available from the ENCODE project. This can be progra
 
 To cite our study, please use the following:
 
-de Lima Camillo, L.P., Horvath, S. & Singh, R. Histone mark age of human tissues and cells. bioRxiv X, X (2023). [URLXXXXX](URLXXXXX)
+de Lima Camillo, L.P., Horvath, S. & Singh, R. Histone mark age of human tissues and cells. bioRxiv X, X (2023). [10.1101/2023.08.21.554165](https://www.biorxiv.org/content/10.1101/2023.08.21.554165v1)
 
 BibTex citation:
 ```
@@ -72,10 +72,9 @@ BibTex citation:
 	author = {de Lima Camillo, Lucas Paulo and Horvath, Steve and Singh, Ritambhara},
 	title = {Histone mark age of human tissues and cells},
 	year = {2023},
-	doi = {XXXXX},
+	doi = {10.1101/2023.08.21.554165},
 	publisher = {Cold Spring Harbor Laboratory},
-	URL = {XXXXX},
-	eprint = {XXXXX},
+	URL = {ttps://www.biorxiv.org/content/10.1101/2023.08.21.554165v1},
 	journal = {bioRxiv}
 }
 ```
