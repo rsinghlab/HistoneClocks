@@ -69,7 +69,7 @@ de Lima Camillo, L.P., Horvath, S. & Singh, R. Histone mark age of human tissues
 BibTex citation:
 ```
 @article {de_Lima_Camillo_HistoneClocks,
-	author = {de Lima Camillo, Lucas Paulo and Asif, Muhammad H. and Horvath, Steve and Larschan, Eric and Singh, Ritambhara},
+	author = {de Lima Camillo, Lucas Paulo and Asif, Muhammad H. and Horvath, Steve and Larschan, Erica and Singh, Ritambhara},
 	title = {Histone mark age of human tissues and cells},
 	year = {2023},
 	doi = {10.1101/2023.08.21.554165},
