@@ -6,7 +6,7 @@
 
 # 🧬🕡 Histone Mark Age of Human Tissues and Cells 🕡🧬
 
-This repository hosts the code and resources for predicting histone mark age in human tissues and cells. Our preprint detailing the methodology and results can be found [here](URLXXXXXXX).
+This repository hosts the code and resources for predicting histone mark age in human tissues and cells. Our preprint detailing the methodology and results can be found [here](https://www.biorxiv.org/content/10.1101/2023.08.21.554165v3).
 
 ## 🏛️ Project Structure
 
