@@ -1,7 +1,6 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![GitHub stars](https://img.shields.io/github/stars/rsinghlab/HistoneClocks)](https://github.com/rsinghlab/HistoneClocks/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/rsinghlab/HistoneClocks)](https://github.com/rsinghlab/HistoneClocks/network/members)
-![Downloads](https://img.shields.io/github/downloads/rsinghlab/HistoneClocks/total)
 
 # 🧬🕡 Histone Mark Age of Human Tissues and Cells 🕡🧬
 
