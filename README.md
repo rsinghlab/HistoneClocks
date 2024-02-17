@@ -19,13 +19,6 @@ This repository hosts the code and resources for predicting histone mark age in 
 - **`.gitignore`**: Files to ignore in Git (e.g., .DS_Store).
 - **`README.md`**: This README file.
 
-## 🚀 Usage
-
-1. **Set up Environment**: Spin up an AWS SageMaker instance (e.g., `ml.t3.2xlarge`) or any other computer.
-2. **Clone Repository**: Clone this repository to your environment.
-3. **Download Processed ENCODE Data** (optional): Access our [Google Drive](https://drive.google.com/drive/u/2/folders/1mhpAH_bXOyutNfWi0VZdQi0DvQOa7edN). Copy the `data` folder and all files within to the root of your directory. If you've already downloaded the processed ENCODE data, comment out the download scripts.
-4. **Run `main.sh`**: Run the `main.sh` script to replicate the results.
-
 ## 💡 Tutorial on Using the Histone Mark Age Predictors
 
 The recommended way to run the histone mark age predictors is with [pyaging](https://github.com/rsinghlab/pyaging). In the documentation page of the package, a detailed tutorial is available. 
@@ -59,6 +52,13 @@ print(f'The predicted {histone_mark} age is {round(y_hat,3)} years.')
 ## 📦 Data availability
 
 All data used was publicly available from the ENCODE project. This can be programmatically accessed and downloaded through the scripts in this GitHub. Nevertheless, to download the already-processed data with the results, please access our [Google Drive](https://drive.google.com/drive/u/2/folders/1mhpAH_bXOyutNfWi0VZdQi0DvQOa7edN). This should make it easier to train any future models. 
+
+## 🚀 Reproducibility
+
+1. **Set up Environment**: Spin up an AWS SageMaker instance (e.g., `ml.t3.2xlarge`) or any other computer.
+2. **Clone Repository**: Clone this repository to your environment.
+3. **Download Processed ENCODE Data** (optional): Access our [Google Drive](https://drive.google.com/drive/u/2/folders/1mhpAH_bXOyutNfWi0VZdQi0DvQOa7edN). Copy the `data` folder and all files within to the root of your directory. If you've already downloaded the processed ENCODE data, comment out the download scripts.
+4. **Run `main.sh`**: Run the `main.sh` script to replicate the results.
 
 ## 📝 Citation
 
