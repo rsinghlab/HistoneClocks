@@ -1,4 +1,3 @@
-[![Beta](https://img.shields.io/badge/status-beta-yellow)](https://github.com/rsinghlab/HistoneClocks)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 [![GitHub stars](https://img.shields.io/github/stars/rsinghlab/HistoneClocks)](https://github.com/rsinghlab/HistoneClocks/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/rsinghlab/HistoneClocks)](https://github.com/rsinghlab/HistoneClocks/network/members)
@@ -30,7 +29,9 @@ This repository hosts the code and resources for predicting histone mark age in 
 
 ## 💡 Tutorial on Using the Histone Mark Age Predictors
 
-Follow this step-by-step guide to use the histone mark age predictors. A more detailed version is available in the 'tutorial' folder named 'tutorial.ipynb'.
+The recommended way to run the histone mark age predictors is with [pyaging](https://github.com/rsinghlab/pyaging). In the documentation page of the package, a detailed tutorial is available. 
+
+Alternatively, follow this step-by-step guide to use the histone mark age predictors. A more detailed version is available in the 'tutorial' folder named 'tutorial.ipynb'.
 
 1. **Load required packages:**
    Import the necessary packages for data processing and prediction.
