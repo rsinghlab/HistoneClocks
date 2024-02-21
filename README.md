@@ -10,6 +10,7 @@ This repository hosts the code and resources for predicting histone mark age in 
 
 - **`analysis/`**: Analysis notebook files for the manuscript's four main sections [for peer-review].
 - **`metadata/`**: Metadata required to run the scripts.
+- **`results/`**: Tables with the data and statistics for the plots in Figure 2.
 - **`results/models/`**: Feature selection, dimensionality reduction, and ARD regressor for each histone mark age predictor and the pan histone age predictor.
 - **`scripts/`**: Scripts to reproduce the paper's results.
 - **`tutorial/`**: Tutorial notebook for predicting histone mark age with your own data.
