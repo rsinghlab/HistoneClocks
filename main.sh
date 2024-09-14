@@ -24,9 +24,10 @@ wget https://zhouserver.research.chop.edu/InfiniumAnnotation/20180909/HM450/HM45
 
 #install required python packages
 source activate python3
+mamba install -c conda-forge -c bioconda gseapy -y
+mamba install -c bioconda pybigwig -y
+mamba install -c conda-forge dynamo-release -y
 pip install -r requirements.txt
-conda install -c conda-forge -c bioconda gseapy -y
-conda install -c bioconda pybigwig -y
 
 #download data
 python scripts/download_and_process_methylation.py
@@ -36,6 +37,7 @@ python scripts/download_and_process_encode_primary_cells_untreated.py
 
 #run scripts
 python scripts/nested_cv.py
+python scripts/nested_cv_adult_only.py
 python scripts/nested_cv_sim_methylation.py
 python scripts/nested_cv_pan_histone.py
 python scripts/nested_cv_noise.py
