@@ -5,7 +5,7 @@ scipy
 anndata
 scanpy
 tqdm
-dynamo-release
+# dynamo-release
 KDEpy
 cdlib
 igraph
