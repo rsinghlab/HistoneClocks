@@ -66,17 +66,16 @@ All data used was publicly available from the ENCODE project. This can be progra
 
 To cite our study, please use the following:
 
-de Lima Camillo, L.P., Asif, M. H., Horvath, S., Larschan, E. & Singh, R. Histone mark age of human tissues and cells. bioRxiv X, X (2023). [10.1101/2023.08.21.554165](https://www.biorxiv.org/content/10.1101/2023.08.21.554165v1)
+de Lima Camillo, L.P., Asif, M. H., Horvath, S., Larschan, E. & Singh, R. Histone mark age of human tissues and cell types. Science Advances (2025). [10.1126/sciadv.adk9373](https://www.science.org/doi/10.1126/sciadv.adk9373)
 
 BibTex citation:
 ```
 @article {de_Lima_Camillo_HistoneClocks,
 	author = {de Lima Camillo, Lucas Paulo and Asif, Muhammad H. and Horvath, Steve and Larschan, Erica and Singh, Ritambhara},
-	title = {Histone mark age of human tissues and cells},
-	year = {2023},
-	doi = {10.1101/2023.08.21.554165},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {ttps://www.biorxiv.org/content/10.1101/2023.08.21.554165v1},
-	journal = {bioRxiv}
+	title = {Histone mark age of human tissues and cell types},
+	year = {2025},
+	doi = {10.1126/sciadv.adk9373},
+	URL = {https://www.science.org/doi/10.1126/sciadv.adk9373},
+	journal = {Science Advances}
 }
 ```
